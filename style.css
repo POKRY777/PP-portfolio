@@ -66,16 +66,16 @@ button {
     transition: color 0.3 ease, transforrm 0.3 ease;
 }
 
-#navbar a:hover {
-    color: #FFD700;
-    transform: scale(1.1);
-}
-
 .nav-links a {
     color: #bfb990;
     text-decoration: none;
     margin-right: 10px;
 }
+#navbar a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+}
+
 
 .initials {
     color: #FFD700;
@@ -96,6 +96,15 @@ button {
     text-align: center;
 }
 
+#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+}
 .luxury-text {
     font-family: 'Playfair Displ: ', serif;
     font-size: 6rem;
@@ -116,10 +125,7 @@ button {
 #pp-initials {
     font-size: 8rem;
 }
-.luxury-text:hover {
-    color: #bfb990;
-    text-shadow: 5px 5px 10px rgb(0, 0, 0)0.8;
-}
+
 
 #contact {
     display: flex;
@@ -136,6 +142,10 @@ button {
 
 #email-us {
     font-size: 1.2rem;
+}
+
+#work-clients {
+    font-size: 1.4rem;
 }
 
 #email-us a:hover {
